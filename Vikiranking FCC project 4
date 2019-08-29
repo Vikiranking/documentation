@@ -1,0 +1,443 @@
+<doctype HTML>
+<html>
+<style>
+
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: lightgray;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+background-color: darkgrey;
+  border-right: solid;
+  border-color: black;
+}
+
+header {
+  color: black;
+  margin: 20px;
+  text-align: center;
+  font-size: 2.1em;
+  font-weight: thin;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
+</style>
+
+<nav id="navbar">
+ <hr> <header>CALCULUS</header>
+  <ul></hr>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#Why_Study_Calculus"
+        >Why Study Calculus</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#History">History</a>
+    </li>
+    <li><a class="nav-link" href="#Principles">Principles</a></li>
+    <li><a class="nav-link" href="#Differential_Calculus">Differential Calculus</a></li>
+    <li>
+      <a class="nav-link" href="#Applications">Applications</a>
+    </li>
+    <li><a class="nav-link" href="#Varieties">Varieties</a></li>
+    <li><a class="nav-link" href="#Differentiation">Differentiation</a></li>
+    <li><a class="nav-link" href="#Change_Of_Speed">Change Of Speed</a></li>
+    <li><a class="nav-link" href="#Formal_Defination_Of_The_Derivatives">Formal Defination Of The Derivatives</a></li>
+    <li>
+      <a class="nav-link" href="#Higher-Order_Derivatives">Higher-Order Derivatives</a>
+    </li>
+    <li><a class="nav-link" href="#Integration">Integration</a></li>
+    <li>
+      <a class="nav-link" href="#The_Riemann_Integral"
+        >The Riemann Integral</a
+      >
+    </li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        Calculus, originally called infinitesimal calculus or "the calculus of infinitesimals", is the mathematical study of continuous change, in the same way that geometry is the study of shape and algebra is the study of generalizations of arithmetic operations.
+
+	It has two major branches, differential calculus and integral calculus. Differential calculus concerns instantaneous rates of change and the slopes of curves. Integral calculus concerns accumulation of quantities and the areas under and between curves. These two branches are related to each other by the fundamental theorem of calculus. Both branches make use of the fundamental notions of convergence of infinite sequences and infinite series to a well-defined limit.</p>
+
+<p>Infinitesimal calculus was developed independently in the late 17th century by Isaac Newton and Gottfried Wilhelm Leibniz. Today, calculus has widespread uses in science, engineering, and economics.</p>
+
+<p>
+	In mathematics education, calculus denotes courses of elementary mathematical analysis, which are mainly devoted to the study of functions and limits. The word calculus (plural calculi) is a Latin word, meaning originally "small pebble" (this meaning is kept in medicine). Because such pebbles were used for calculation, the meaning of the word has evolved and today usually means a method of computation. It is therefore used for naming specific methods of calculation and related theories, such as propositional calculus, Ricci calculus, calculus of variations, lambda calculus, and process calculus.
+      </p>
+
+     </article>
+  </section>
+  <section class="main-section" id="Why_Study_Calculus">
+    <header>Why Study Calculus</header>
+    <article>
+      <p>Why is it important to study calculus?
+It teaches your brain to work in new ways, and this can be useful no matter what career you have. The great importance of calculus is quickly noticed by taking a look at the number of fields that use calculus to solve important problems. Calculus is used to solve from biology problems to economy problems.</p>
+<p>
+Calculus is applicable to our everyday life and it's used to improve so many things, some examples includes: </p>
+      <ul>
+        <li>
+         Calculus is used to improve the architecture not only of buildings but also of important infrastructures such as bridges.
+        </li>
+        <li>
+In Electrical Engineering, Calculus (Integration) is used to determine the exact length of power cable needed to connect two substations, which are miles away from each other.
+</li>
+      
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="History">
+    <header>History</header>
+    <article>
+      <p>
+        Modern calculus was developed in 17th-century Europe by Isaac Newton and Gottfried Wilhelm Leibniz (independently of each other, first publishing around the same time) but elements of it appeared in ancient Greece, then in China and the Middle East, and still later again in medieval Europe and in India.
+      </p>
+
+      <p>
+        While many of the ideas of calculus had been developed earlier in Greece, China, India, Iraq, Persia, and Japan, the use of calculus began in Europe, during the 17th century, when Isaac Newton and Gottfried Wilhelm Leibniz built on the work of earlier mathematicians to introduce its basic principles. The development of calculus was built on earlier concepts of instantaneous motion and area underneath curves.</p>
+
+<p>
+Applications of differential calculus include computations involving velocity and acceleration, the slope of a curve, and optimization. Applications of integral calculus include computations involving area, volume, arc length, center of mass, work, and pressure. More advanced applications include power series and Fourier series.</p>
+
+<p>
+Calculus is also used to gain a more precise understanding of the nature of space, time, and motion. For centuries, mathematicians and philosophers wrestled with paradoxes involving division by zero or sums of infinitely many numbers. These questions arise in the study of motion and area. The ancient Greek philosopher Zeno of Elea gave several famous examples of such paradoxes. Calculus provides tools, especially the limit and the infinite series, that resolve the paradoxes.</p>
+        loosely typed methods.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Principles">
+    <header>Principles</header>
+    <article>
+     <strong>Limits and infinitesimals:</strong>
+<p>
+Calculus is usually developed by working with very small quantities. Historically, the first method of doing so was by infinitesimals. These are objects which can be treated like real numbers but which are, in some sense, "infinitely small". For example, an infinitesimal number could be greater than 0, but less than any number in the sequence 1, 1/2, 1/3, ... and thus less than any positive real number. From this point of view, calculus is a collection of techniques for manipulating infinitesimals.
+<code> The symbols <displaystyle dx> dx and <displaystyle dy> dy were taken to be infinitesimal, and the derivative <displaystyle dy/dx> dy/dx was simply their ratio
+      </code>
+</p>
+The infinitesimal approach fell out of favor in the 19th century because it was difficult to make the notion of an infinitesimal precise. However, the concept was revived in the 20th century with the introduction of non-standard analysis and smooth infinitesimal analysis, which provided solid foundations for the manipulation of infinitesimals.
+    </article>
+  </section>
+  <section class="main-section" id="Differential_Calculus">
+    <header>Differential Calculus</header>
+    <p>
+      Differential calculus is the study of the definition, properties, and applications of the derivative of a function. The process of finding the derivative is called differentiation. Given a function and a point in the domain, the derivative at that point is a way of encoding the small-scale behavior of the function near that point.
+    </p>
+    <p>
+     By finding the derivative of a function at every point in its domain, it is possible to produce a new function, called the derivative function or just the derivative of the original function. In formal terms, the derivative is a linear operator which takes a function as its input and produces a second function as its output.
+    </p>
+    <p>
+      This is more abstract than many of the processes studied in elementary algebra, where functions usually input a number and output another number. For example, if the doubling function is given the input three, then it outputs six, and if the squaring function is given the input three, then it outputs nine. The derivative, however, can take the squaring function as an input. This means that the derivative takes all the information of the squaring function—such as that two is sent to four, three is sent to nine, four is sent to sixteen, and so on—and uses this information to produce another function. The function produced by deriving the squaring function turns out to be the doubling function.
+<p>
+f a function is linear (that is, if the graph of the function is a straight line), then the function can be written as <code> y = mx + b, where x is the independent variable, y is the dependent variable, b is the y-intercept</code></p>
+
+<p>
+<strong>
+Integral calculus:
+</Strong>
+Integral calculus is the study of the definitions, properties, and applications of two related concepts, the indefinite integral and the definite integral. The process of finding the value of an integral is called integration. In technical language, integral calculus studies two related linear operators.
+
+The indefinite integral, also known as the antiderivative, is the inverse operation to the derivative. F is an indefinite integral of f when f is a derivative of F. (This use of lower- and upper-case letters for a function and its indefinite integral is common in calculus.)
+
+The definite integral inputs a function and outputs a number, which gives the algebraic sum of areas between the graph of the input and the x-axis. The technical definition of the definite integral involves the limit of a sum of areas of rectangles, called a Riemann sum.
+
+A motivating example is the distances traveled in a given time.
+<code>Distance = Speed <em>X</em> Time
+</code>
+</p>
+  </section>
+  <section class="main-section" id="Applications">
+    <header>Applications</header>
+    <article>
+      Calculus is used in every branch of the physical sciences, actuarial science, computer science, statistics, engineering, economics, business, medicine, demography, and in other fields wherever a problem can be mathematically modeled and an optimal solution is desired. It allows one to go from (non-constant) rates of change to the total change or vice versa, and many times in studying a problem we know one and are trying to find the other.
+      <p>
+        Physics makes particular use of calculus; all concepts in classical mechanics and electromagnetism are related through calculus. The mass of an object of known density, the moment of inertia of objects, as well as the total energy of an object within a conservative field can be found by the use of calculus. An example of the use of calculus in mechanics is Newton's second law of motion: historically stated it expressly uses the term "change of motion" which implies the derivative saying The change of momentum of a body is equal to the resultant force acting on the body and is in the same direction. Commonly expressed today as Force = Mass × acceleration, it implies differential calculus because acceleration is the time derivative of velocity or second time derivative of trajectory or spatial position. Starting from knowing how an object is accelerating, we use calculus to derive its path.
+      </p>
+      <p>
+       In economics, calculus allows for the determination of maximal profit by providing a way to easily calculate both marginal cost and marginal revenue.</p>
+<p>Maxwell's theory of electromagnetism and Einstein's theory of general relativity are also expressed in the language of differential calculus. Chemistry also uses calculus in determining reaction rates and radioactive decay. In biology, population dynamics starts with reproduction and death rates to model population changes.
+</p>
+<p>Calculus can be used in conjunction with other mathematical disciplines. For example, it can be used with linear algebra to find the "best fit" linear approximation for a set of points in a domain. Or it can be used in probability theory to determine the probability of a continuous random variable from an assumed density function. In analytic geometry, the study of graphs of functions, calculus is used to find high points and low points (maxima and minima), slope, concavity and inflection points.</p>
+<p>
+Calculus is also used to find approximate solutions to equations; in practice it is the standard way to solve differential equations and do root finding in most applications. Examples are methods such as Newton's method, fixed point iteration, and linear approximation. For instance, spacecraft use a variation of the Euler method to approximate curved courses within zero gravity environments.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Varieties">
+    <header>Varieties</header>
+    <article>
+<strong>
+Non-Standard Calculus :</strong>
+      <p>
+       Imprecise calculations with infinitesimals were widely replaced with the rigorous <code>(ε, δ)-definition of limit starting in the 1870s.</code> Meanwhile, calculations with infinitesimals persisted and often led to correct results. This led Abraham Robinson to investigate if it were possible to develop a number system with infinitesimal quantities over which the theorems of calculus were still valid. In 1960, building upon the work of Edwin Hewitt and Jerzy Łoś, he succeeded in developing non-standard analysis. The theory of non-standard analysis is rich enough to be applied in many branches of mathematics. As such, books and articles dedicated solely to the traditional theorems of calculus often go by the title non-standard calculus.
+      </p>
+
+<strong>Smooth infinitesimal analysis :</strong>
+      <p>This is another reformulation of the calculus in terms of infinitesimals. Based on the ideas of F. W. Lawvere and employing the methods of category theory, it views all functions as being continuous and incapable of being expressed in terms of discrete entities. One aspect of this formulation is that the law of excluded middle does not hold in this formulation.
+      </p>
+<strong>Constructive analysis :</strong>
+      <p>Constructive mathematics is a branch of mathematics that insists that proofs of the existence of a number, function, or other mathematical object should give a construction of the object. As such constructive mathematics also rejects the law of excluded middle. Reformulations of calculus in a constructive framework are generally part of the subject of constructive analysis.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Differentiation">
+    <header>Differentiation</header>
+    <article>
+      <p>
+       Differentiation is about rates of change; for geometric curves and figures, this means determining the slope, or tangent, along a given direction. Being able to calculate rates of change also allows one to determine where maximum and minimum values occur—the title of Leibniz’s first calculus publication was “Nova Methodus pro Maximis et Minimis, Itemque Tangentibus, qua nec Fractas nec Irrationales Quantitates Moratur, et Singulare pro illi Calculi Genus” (1684; “A New Method for Maxima and Minima, as Well as Tangents, Which Is Impeded Neither by Fractional nor by Irrational Quantities, and a Remarkable Type of Calculus for This”).</p> 
+<p>Early applications for calculus included the study of gravity and planetary motion, fluid flow and ship design, and geometric curves and bridge engineering.
+      </p>
+</article>
+  </section>
+  <section class="main-section" id="Change_Of_Speed">
+    <header>Change Of Speed</header>
+    <article>
+
+ <strong>Average rates of change: </strong>
+<p>
+A simple illustrative example of rates of change is the speed of a moving object. An object moving at a constant speed travels a distance that is proportional to the time. For example, a car moving at 50 kilometres per hour (km/hr) travels 50 km in 1 hr, 100 km in 2 hr, 150 km in 3 hr, and so on. A graph of the distance traveled against the time elapsed looks like a straight line whose slope, or gradient, yields the speed.
+      </p>
+
+<p>Constant speeds pose no particular problems—in the example above, any time interval yields the same speed—but variable speeds are less straightforward. Nevertheless, a similar approach can be used to calculate the average speed of an object traveling at varying speeds: simply divide the total distance traveled by the time taken to traverse it. Thus, a car that takes 2 hr to travel 100 km moves with an average speed of 50 km/hr. However, it may not travel at the same speed for the entire period. It may slow down, stop, or even go backward for parts of the time, provided that during other parts it speeds up enough to cover the total distance of 100 km. Thus, average speeds—certainly if the average is taken over long intervals of time—do not tell us the actual speed at any given moment.</p>   
+
+<strong>Instataneous Rates Of Change</strong> 
+      <p>
+        In fact, it is not so easy to make sense of the concept of “speed at a given moment.” How long is a moment? Zeno of Elea, a Greek philosopher who flourished about 450 BCE, pointed out in one of his celebrated paradoxes that a moving arrow, at any instant of time, is fixed. During zero time it must travel zero distance. Another way to say this is that the instantaneous speed of a moving object cannot be calculated by dividing the distance that it travels in zero time by the time that it takes to travel that distance. This calculation leads to a fraction, 0/0, that does not possess any well-defined meaning. Normally, a fraction indicates a specific quotient. For example, 6/3 means 2, the number that, when multiplied by 3, yields 6. Similarly, 0/0 should mean the number that, when multiplied by 0, yields 0. But any number multiplied by 0 yields 0. In principle, then, 0/0 can take any value whatsoever, and in practice it is best considered meaningless.
+      </p>
+
+      <p>
+       Despite these arguments, there is a strong feeling that a moving object does move at a well-defined speed at each instant. Passengers know when a car is traveling faster or slower. So the meaninglessness of 0/0 is by no means the end of the story. Various mathematicians—both before and after Newton and Leibniz—argued that good approximations to the instantaneous speed can be obtained by finding the average speed over short intervals of time. If a car travels 5 metres in one second, then its average speed is 18 km/hr, and, unless the speed is varying wildly, its instantaneous speed must be close to 18 km/hr. A shorter time period can be used to refine the estimate further.
+      </p>
+<p>If a mathematical formula is available for the total distance traveled in a given time, then this idea can be turned into a formal calculation. For example, suppose that after time t seconds an object travels a distance t2 metres. (Similar formulas occur for bodies falling freely under gravity, so this is a reasonable choice.) To determine the object’s instantaneous speed after precisely one second, its average speed over successively shorter time intervals will be calculated.</p>
+
+      <p>
+To start the calculation, observe that between <code>time t = 1 and t = 1.1 the distance traveled is 1.12 − 1 = 0.21.</code> The average speed over that interval is therefore : <code> 0.21/0.1 = 2.1 metres per second.</code> For a finer approximation, the distance traveled between <code>times t = 1 and t = 1.01 is 1.012 − 1 = 0.0201, and the average speed is 0.0201/0.01 = 2.01 metres per second.
+</code>
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Formal_Defination_Of_The_Derivatives">
+    <header>Formal Defination Of The Derivatives</header>
+    <article>
+      <p>More generally, suppose an arbitrary time interval h starts from the time t = 1. Then the distance traveled is <code> (1 + h)2 −12, which simplifies to give 2h + h2.</code> The time taken is h. Therefore, the average speed over that time interval is <code> (2h + h2)/h, which equals 2 + h, provided h ≠ 0.</code>
+</p>
+<p>
+ Obviously, as h approaches zero, this average speed approaches 2. Therefore, the definition of instantaneous speed is satisfied by the value 2 and only that value. What has not been done here—indeed, what the whole procedure deliberately avoids—is to set h equal to 0.
+</p>
+
+<p> As Bishop George Berkeley pointed out in the 18th century, to replace <code>(2h + h2)/h by 2 + h</code> one must assume h is not zero, and that is what the rigorous definition of a limit achieves.</p>
+
+<p>
+Even more generally, suppose the calculation starts from an arbitrary time t instead of a fixed t = 1. Then the distance traveled is <code>(t + h)2 − t2, which simplifies to 2th + h2.</code> The time taken is again h. Therefore, the average speed over that time interval is <code>(2th + h2)/h, or 2t + h.</code> Obviously, as h approaches zero, this average speed approaches the limit 2t.
+</p>
+<p>
+This procedure is so important that it is given a special name: the derivative of t2 is 2t, and this result is obtained by differentiating t2 with respect to t.</p>
+
+<p>
+One can now go even further and replace t2 by any other function f of time. <code>The distance traveled between times t and t + h is f(t + h) − f(t). The time taken is h. So the average speed is
+(f(t + h) − f(t))/h. (3)</code>
+If (3) tends to a limit as h tends to zero, then that limit is defined as the derivative of f(t), written f′(t). Another common notation for the derivative is<code>df/dt
+</code>
+symbolizing small change in f divided by small change in t. A function is differentiable at t if its derivative exists for that specific value of t. It is differentiable if the derivative exists for all t for which f(t) is defined. </p>
+    </article>
+  </section>
+  <section class="main-section" id="Higher-Order_Derivatives">
+    <header>Higher-Order Derivatives</header>
+    <article>
+The process of differentiation can be applied several times in succession, leading in particular to the second derivative f″ of the function f, which is just the derivative of the derivative f′. The second derivative often has a useful physical interpretation. For example, if f(t) is the position of an object at time t, then f′(t) is its speed at time t and f″(t) is its acceleration at time t. <strong>Newton’s laws of motion</strong> state that the acceleration of an object is proportional to the total force acting on it; so second derivatives are of central importance in dynamics. The second derivative is also useful for graphing functions, because it can quickly determine whether each critical point, c, corresponds to a local maximum (f″(c) < 0), a local minimum (f″(c) > 0), or a change in concavity (f″(c) = 0). Third derivatives occur in such concepts as curvature; and even fourth derivatives have their uses, notably in elasticity. The nth derivative of f(x) is denoted by:
+<code>f(n)(x) or dnf/dxn</code>
+and has important applications in power series.
+
+<p>
+An infinite series of the form
+<code>a0 + a1x + a2x2 +⋯,</code>
+where x and the aj are real numbers, is called a <strong>power series</strong>. The aj are the coefficients. The series has a legitimate meaning, provided the series converges. In general, there exists a real number R such that the series converges when <strong> −R < x < R </strong>but diverges if <strong>x < −R or x > R.</strong> The range of values <strong>−R < x < R</strong> is called the interval of convergence. 
+</p>
+<p> The behaviour of the series at x = R or x = −R is more delicate and depends on the coefficients. If R = 0 the series has little utility, but when R > 0 the sum of the infinite series defines a function f(x). Any function f that can be defined by a convergent power series is said to be real-analytic.
+</p>
+<p>
+The coefficients of the power series of a real-analytic function can be expressed in terms of derivatives of that function. For values of x inside the interval of convergence, the series can be differentiated term by term; that is,
+<code>f′(x) = a1 + 2a2x + 3a3x2 +⋯,</code>
+and this series also converges. Repeating this procedure and then setting x = 0 in the resulting expressions shows that <code>a0 = f(0),
+ a1 = f′(0),
+ a2 = f″(0)/2,
+ a3 = f′′′(0)/6,
+ and, in general,
+ aj = f(j)(0)/j!.</code> That is, within the interval of convergence of f,
+analysis formula.
+</p>
+<p>
+This expression is the Maclaurin series of f, otherwise known as the Taylor series of f about 0. A slight generalization leads to the Taylor series of f about a general value x:
+analysis formula
+All these series are meaningful only if they converge.
+</p>
+For example, it can be shown that
+<code>ex = 1 + x + x2/2! + x3/3! +⋯,
+sin (x) = x − x3/3! + x5/5! − ⋯,
+cos (x) = 1 − x2/2! + x4/4! − ⋯,
+</code>
+and these series converge for all x.
+
+         </article>
+  </section>
+  <section class="main-section" id="Integration">
+    <header>Integration</header>
+    <article>
+     Like differentiation, integration has its roots in ancient problems—particularly, finding the area or volume of irregular objects and finding their centre of mass. Essentially, integration generalizes the process of summing up many small factors to determine some whole.
+
+<p>
+Also like differentiation, integration has a geometric interpretation. The (definite) integral of the function f, between initial and final values t = a and t = b, is the area of the region enclosed by the graph of f, the horizontal axis, and the vertical lines <code>t = a and t = b, </code> as shown. It is denoted by the symbol
+      <code>∫ abf(t)dt</code> </p>
+
+      <p>
+        Here the symbol ∫ is an elongated s, for sum, because the integral is the limit of a particular kind of sum. The values a and b are often, confusingly, called the limits of the integral; this terminology is unrelated to the limit concept introduced in the section Technical preliminaries.
+      </p>
+    <p>
+Integration is related to differentiation by the following:
+      <ul>
+        <li>Fundamental Theorem Of Calculus <code>d/dt∫[a, t ] of ∫ atf(u)du) = f(t).</code>
+</li>
+        <li>Antideferientation</li>
+       
+      </ul>
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="The_Riemann_Integral">
+    <header>The Riemann Integral</header>
+    <article>
+      The task of analysis is to provide not a computational method but a sound logical foundation for limiting processes. Oddly enough, when it comes to formalizing the integral, the most difficult part is to define the term area. It is easy to define the area of a shape whose edges are straight; for example, the area of a rectangle is just the product of the lengths of two adjoining sides. But the area of a shape with curved edges can be more elusive. The answer, again, is to set up a suitable limiting process that approximates the desired area with simpler regions whose areas can be calculated.
+      <p>
+        The first successful general method for accomplishing this is usually credited to the German mathematician Bernhard Riemann in 1853, although it has many precursors (both in ancient Greece and in China). Given some function f(t), consider the area of the region enclosed by the graph of f, the horizontal axis, and the vertical lines t = a and t = b. Riemann’s approach is to slice this region into thin vertical strips (see part A of the figure) and to approximate its area by sums of areas of rectangles, both from the inside (part B of the figure) and from the outside (part C of the figure). If both of these sums converge to the same limiting value as the thickness of the slices tends to zero, then their common value is defined to be the Riemann integral of f between the limits a and b. If this limit exists for all a, b, then f is said to be (Riemann) integrable. Every continuous function is integrable.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://www.britannica.com/science/analysis-mathematics/Ordinary-differential-equations"
+            target="_blank"
+            >Calculus Redefined By Vikiranking</a
+          >
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
+</html>
